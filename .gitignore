@@ -1,2 +1,6 @@
+/web/downloads
+
+# domains from download
 /web/*.org
 /web/*.com
+

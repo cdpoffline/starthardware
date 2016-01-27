@@ -2,6 +2,8 @@
 
 cd "`dirname $0`"
 
+./download_installers.sh
+
 cd ../web
 
 rm -r starthardware.org
