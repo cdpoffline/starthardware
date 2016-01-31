@@ -1,2 +1,2 @@
 # starthardware
-An offline version of starthardware.org to teach Arduino
+An offline version of [starthardware.org](http://starthardware.org) to teach Arduino
