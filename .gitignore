@@ -1,7 +1,4 @@
 /web/downloads
 /web/offline-materials
-
-# domains from download
-/web/*.org
-/web/*.com
+/web/site
 
