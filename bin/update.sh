@@ -3,6 +3,7 @@
 cd "`dirname $0`"
 
 ./download_installers.sh
+./download_libraries.sh
 
 cd ../web
 
