@@ -19,3 +19,5 @@ wget --mirror --convert-links --adjust-extension --page-requisites --no-parent -
      --header='Cookie: _icl_current_language=de' \
      --header='Referer: http://starthardware.org/' \
      http://starthardware.org
+
+exit 0
