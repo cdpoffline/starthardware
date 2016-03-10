@@ -5,9 +5,10 @@ import sys
 
 file_name = sys.argv[1]
 
-assert "starthardware.org" in file_name
+if "starthardware.org" not in file_name:
+    exit(1)
 
-pattern = re.compile("(\"http://(starthardware\\.org[^ \"]*))")
+pattern = re.compile("(\"http://(starthardware\\.org[^# \"]*))")
 add = "\"" + "../" * file_name[file_name.rfind("starthardware.org"):].count("/")
 
 with open(file_name, 'rb') as file:
