@@ -28,7 +28,11 @@ do
       echo -n "- $page ... "
       if ! echo "$page" | grep -q -x "$pages_done"
       then
-        if wget -N -c -p -q "$page"
+        if wget -N -c -p -q \
+                --header='User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:43.0) Gecko/20100101 Firefox/43.0' \
+                --header='Cookie: _icl_current_language=de' \
+                --header="Referer: http://$file" \
+                "$page"
         then
           echo "ok"
         else
