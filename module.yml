@@ -1,10 +1,12 @@
 overview:
   hardware:
     starthardware:
-      name: 
+      name:
         en-en: Start Hardware
         de-de: Start Hardware
-      text: 
+    it-it: Start Hardware
+      text:
         en-en: Learn how to make own electric circuits and control them with an Arduino.
         de-de: Lerne, eigene Schaltungen zu bauen und sie mit dem Arduino zu steuern.
+    it-it: Impara a creare circuiti elettrici e a controllarli con Arduino.
       module: starthardware
